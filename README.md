@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Objek 1: Kotak -->
+      <a-box position="-2 1 -3" color="red"></a-box>
+
+      <!-- Objek 2: Silinder -->
+      <a-cylinder position="2 1 -3" radius="1" height="2" color="blue"></a-cylinder>
+
+      <!-- Objek 3: Sphere -->
+      <a-sphere position="0 1 -3" radius="1.5" color="green"></a-sphere>
+
+      <!-- Objek 4: Tetrahedron -->
+      <a-tetrahedron position="-4 1 -3" radius="1" color="yellow"></a-tetrahedron>
+
+      <!-- Objek 5: Dodecahedron -->
+      <a-dodecahedron position="4 1 -3" radius="1" color="purple"></a-dodecahedron>
+
+      <a-sky color="#ECECEC"></a-sky>
+      <a-camera position="0 2 5"></a-camera>
+    </a-scene>
+  </body>
+</html>
